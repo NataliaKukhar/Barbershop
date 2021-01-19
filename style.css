@@ -1,0 +1,717 @@
+body {
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    object-fit: cover;
+    width: 100%;
+}
+
+header h4 {
+    margin-top: 0;
+    text-align: center;
+    background-color: #232020;
+    color: #fff;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font: 400 15px/24px Roboto, Helvetica Neue, sans-serif;
+}
+
+div.back-img {
+    background-image: url(img/background1.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+div.languages {
+    padding-top: 60px;
+    right: 32px;
+    font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
+}
+
+.row .languages {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+div.languages a {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+div.languages a:hover {
+    color: #fff;
+    background: #000;
+}
+
+div.languages a.Ukr {
+    border: 1px solid #000;
+}
+
+div.title p {
+    display: block;
+    font-size: 24pt;
+    margin-top: 0px;
+    padding-top: 30px;
+
+}
+
+div.logo img {
+    width: 100%;
+    max-width: 400px;
+}
+
+div.button {
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#book-online {
+    font-family: Roboto;
+    font-weight: 300;
+    border: 1px solid #131313;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #131313;
+    background-color: transparent;
+    padding: 12px 36px;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+#book-online:hover {
+    background: rgba(130, 130, 130, 0.1);
+}
+
+div.subtitle h1, h2 {
+    margin: 0px;
+    font-weight: normal;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20pt;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 0px;
+    color: #000;
+    font-size: 32px;
+}
+
+.fa-fw {
+    color: black;
+}
+
+.fa-fw:hover {
+    color: rgba(130, 130, 130, 0.67);
+}
+
+div.foot p {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    color: #131313;
+    font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
+}
+
+/****************************************************************************************************************/
+div.back-img-2 {
+    background-image: url(img/background2.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+}
+
+#barbers {
+    display: inline-block;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    padding: 12px 36px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18pt;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+}
+
+#barbers i {
+    color: white;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 8px;
+    top: -5px
+}
+
+div.moustache img {
+    width: 35px;
+    padding-top: 30px;
+}
+.barbers-foto{
+    justify-content: space-between;
+}
+.user-blocks{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+div.all-foto {
+    margin-top: 80px;
+}
+.row .user-blocks img {
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+    margin: 6px;
+}
+.barbers-foto {
+    margin-bottom: 50px;
+}
+.user-blocks .mainUserBlock {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-radius: 50%;
+}
+
+div.name {
+    color: #fff;
+    text-transform: uppercase;
+    font: 400 16px/28px Roboto, Helvetica Neue, sans-serif;
+    margin-top: 12px;
+}
+
+.foot2 span {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.foot2 {
+    padding-bottom: 50px;
+}
+
+/**********************************************************************************************/
+div.back-img3 {
+    background-image: url(img/background3.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+}
+
+#price {
+    display: inline-block;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    background-color: transparent;
+    padding: 12px 36px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+#price i {
+    color: #000;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 8px;
+    top: -5px;
+}
+
+.button-2 {
+    font-size: 18pt;
+    padding: 12px 36px;
+    font-weight: 300;
+}
+
+section.price p {
+    color: black;
+    font-size: 14px;
+
+}
+
+.table-title {
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    border: 0px solid transparent;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 64px;
+    line-height: 36px;
+    border-radius: 4px;
+}
+
+span {
+    color: black;
+}
+
+.table-title:hover {
+    background: rgba(130, 130, 130, 0.1);
+}
+
+.time-price {
+    background-color: hsla(0, 0%, 100%, .56);
+    font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 24px 36px;
+}
+
+.price2 {
+    border-top: 1px dashed rgba(34, 34, 34, .19);
+    padding: 24px 0;
+}
+
+.type {
+    text-align: left;
+}
+
+.sum {
+    text-align: right;
+}
+
+.first {
+    border-top: 1px transparent;
+}
+
+
+/****************************************gallery***************************/
+.gallery {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.foto-galery {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.foto-galery img {
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-position: 50%;
+    background-size: cover;
+    padding: 2px;
+    background: rgba(130, 130, 130, 0.1);
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all .2s linear;
+}
+
+.foto-galery img:hover {
+    filter: none;
+}
+
+.foot2 {
+    padding-bottom: 20px;
+}
+
+/***************************************************************************************************/
+#contact {
+    display: inline-block;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #000;
+    background-color: transparent;
+    padding: 12px 36px;
+    text-decoration: none;
+}
+
+#contact i {
+    color: #000;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 8px;
+    top: -5px;
+}
+
+.location {
+    font-size: 50px;
+}
+
+.new {
+    font-family: Roboto;
+    font-weight: 300;
+    cursor: default;
+    font-size: 16pt;
+    padding: 20px;
+}
+
+.maps {
+    margin: 0px;
+}
+
+.map {
+    object-fit: cover;
+}
+
+.map h3 {
+    display: inline-block;
+    background-color: rgba(33, 33, 33, .8);
+    color: #fff;
+    padding: 6px 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font: 400 16px/28px Roboto, Helvetica Neue, sans-serif;
+}
+
+.place {
+    text-align: left;
+}
+
+.navigator {
+    margin-bottom: 20px;
+}
+
+.foot-button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.foot-button button {
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    border: 0px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 16px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 64px;
+    line-height: 36px;
+    border-radius: 4px;
+
+
+}
+
+.foot-button button:hover {
+    background: rgba(130, 130, 130, 0.1);
+}
+
+.end {
+    padding-bottom: 20px;
+
+}
+
+.end p {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+    cursor: default;
+    font-size: 16pt;
+}
+
+.img-adaptive {
+    max-width: 100%;
+    max-height: auto;
+}
+
+/**************************************************************************************************/
+@media screen and (max-width: 575.99px) {
+    div.title p{
+        font-size: 16pt;
+    }
+    div.subtitle h1, h2{
+        font-size: 18pt;
+    }
+    div.languages {
+        padding-top: 0px;
+    }
+
+    .user-blocks {
+        height: 180px;
+        width: 100px;
+        margin: 12px;
+    }
+
+    #book-online{
+        font-size: 18px;
+        padding: 10px 24px;
+    }
+    #barbers{
+        padding: 12px 4px;
+    }
+    #barbers i{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #contact{
+        padding: 12px 2px;
+    }
+    .barbers-foto {
+        margin-bottom: 20px;
+    }
+    .row .user-blocks img {
+        border-radius: 50%;
+        width: 94px;
+        height: 94px;
+        margin: 2px;
+    }
+
+    .user-blocks .mainUserBlock {
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+    #price {
+        padding: 6px 18px;
+        margin-top: 25px;
+    }
+
+    #price i {
+        color: #000;
+        position: relative;
+        align-items: center;
+        text-align: center;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 7px;
+        top: -5px;
+    }
+
+    .table-title {
+        padding: 0 6px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+
+    .time-price {
+        font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 12px 18px;
+    }
+
+    .foot2 span {
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .foto-galery {
+        height: 116px;
+    }
+    div.all-foto {
+        margin-top: 30px;
+    }
+    .gallery {
+        margin: 0px;
+    }
+    .foot-button button{
+        margin-bottom: 0;
+    }
+    div.name{
+        font: 400 12px/20px Roboto, Helvetica Neue, sans-serif;
+    }
+    .table-title{
+        font-size: 12px;
+    }
+    #contact{
+        font-size: 20px;
+    }
+    .end p{
+        font-size: 12pt;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .user-blocks{
+        margin-right: 30px;
+    }
+    div .languages {
+        padding-top: 0px;
+    }
+
+    .row .user-blocks img {
+        border-radius: 50%;
+        width: 94px;
+        height: 94px;
+        margin: 2px;
+    }
+
+    .user-blocks .mainUserBlock {
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
+
+    .foto-galery {
+        height: 116px;
+    }
+
+    .table-title {
+        padding: 0 4px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .foot-button button{
+        margin-bottom: 0;
+    }
+    div.name {
+        font: 400 10px/14px Roboto, Helvetica Neue, sans-serif;
+    }
+
+    .price2 {
+        padding: 10px 0;
+    }
+}
+/**********************************************************************************************************/
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    div.languages a {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        font-size: 15px;
+    }
+    .barbers-foto {
+        margin-bottom: 20px;
+    }
+    div.languages {
+        padding-top: 20px;
+    }
+
+    .time-price {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .gallery {
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .gallery {
+        width: 700px;
+        background-size: cover;
+    }
+
+    .table-title {
+        padding: 0 8px;
+        font-size: 12px;
+    }
+    .row .user-blocks img {
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        margin: 6px;
+    }
+
+    .user-blocks .mainUserBlock {
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 140px;
+    }
+
+    .name {
+        font: 400 15px Roboto, Helvetica Neue, sans-serif;
+        margin-top: 5px;
+    }
+
+    .user-blocks {
+        height: 240px;
+        width: 140px;
+    }
+
+    .img-adaptive {
+        display: inline-block;
+    }
+
+    .foto-galery {
+        height: 130px;
+    }
+    .foot-button button{
+        margin-bottom: 0;
+    }
+}
+
+/***************************************************************************************************/
+
+@media (min-width: 992px) and (max-width: 1244px) {
+    .foot2 span {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .all-foto {
+        margin-top: 40px;
+    }
+
+    .maps {
+        margin: 0px;
+    }
+}
+
